@@ -9,7 +9,7 @@ function App(){
         <SafeAreaView style = {styles.container}>
         <View>
             <Text style={styles.appbar_title}>News</Text>
-            <FlatList 
+            <FlatList contentContainerStyle={{ paddingBottom: 60}}
                 ListHeaderComponent={
                     <ScrollView horizontal= {true} showsHorizontalScrollIndicator={false}>
                         
